@@ -1,0 +1,99 @@
+/* head style */
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+h2.info {font-size: 15;}
+h2.link {font-size: 15;}
+.mail {
+    display: flex;
+}
+.tel {
+    display: flex;
+}
+.img {
+    padding-top: 5px;
+}
+.header_info {
+    flex: 1;
+}
+a:hover {background-color: blue;}
+
+.header_link {
+    flex: 2;
+}
+
+h1.pre_nom {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+
+
+  /* body style */
+
+  body {
+    background-color: rgb(204, 194, 213);
+    font-family: monospace;
+}
+
+
+h1.intro {
+    font-size: 20px;
+}
+
+.intro {
+    font-family: monospace;
+    /* margin: 25px 50px 75px 100px;*/
+    text-align: center
+}
+
+p.intro {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+h2.part1 {
+    text-align: center;
+}
+
+/* diplome et formation style */
+
+.dip_forma{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dip_forma1,
+.dip_forma2,
+.dip_forma3 {
+    background-color: rgba(234, 230, 108, 0.93);
+    flex: 1;
+    margin-right: 30px;
+}
+
+h2.part4 {
+    text-align: center;
+}
+
+/* experiance pro style */
+
+p.date {
+    font-weight: bold;
+}
+.xp_pro {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.xp_pro1,
+.xp_pro2 {
+    background-color: rgba(234, 230, 108, 0.93);
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 30px;
+}

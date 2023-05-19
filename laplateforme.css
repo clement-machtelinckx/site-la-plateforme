@@ -68,7 +68,7 @@ h1.titre {
     margin-left: 30px;
     text-align: justify;
     font-size: 1.4em;
-    background-color: rgb(204, 204, 180);
+    background-color: rgb(255, 255, 255);
 }
 
 /*body qsn part 2 ####################################################" */
@@ -79,11 +79,98 @@ h1.titre {
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: rgb(186, 185, 184);
 }
 .qsn-p2 {
-    background-color: blueviolet;
     margin-right: 20px;
+    justify-content: center;
+    width: 25%;
 }
 .qsn-p2 img {
     width: 100%;
+}
+
+/*body plateforme start part 1######################################################*/
+.start-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.start-p1-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.vid {margin-top: 20px;
+    margin-bottom: 20px;
+}
+.start-p1-p2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(189, 187, 187);
+}
+.st1 {
+    margin: 20px;
+    
+}
+/* body start part2 ####################################"*/
+
+.start-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.start-p2-p1 {
+    margin-right: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* body start part 3 #################################### */
+
+.start-part3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(253, 253, 51);
+}
+.start-p3-p1 {
+    margin-right: 25px;   
+}
+.vqm {
+    font-size: 2em;
+}
+/*body contact part 1 ##################################################*/
+body.contact {
+        background-image: url("image/bg-img-night.jpg");
+        background-position: center; /* Position de l'image */
+        background-repeat: no-repeat; /* Répétition de l'image */
+        background-size: cover; /* Taille de l'image */
+      }
+      
+
+/* footer ##########################"*/
+footer{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a {
+    margin: 10px;
+    color: white;
+}
+footer img {
+    width: 30%;
+}
+footer a:hover {
+    color: rgb(12, 12, 12);
+    background-color: azure;
 }
